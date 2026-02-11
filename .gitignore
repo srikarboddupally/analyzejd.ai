@@ -10,9 +10,9 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-!frontend/src/lib/
-lib64/
+# Python libs (scoped to avoid frontend/src/lib/)
+/lib/
+/lib64/
 parts/
 sdist/
 var/
